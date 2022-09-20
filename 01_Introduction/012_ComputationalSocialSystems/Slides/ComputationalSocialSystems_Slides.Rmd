@@ -1,0 +1,95 @@
+---
+title: "Computational Social Systems"
+author: "David Garcia <br><br> *TU Graz*"
+date: "Foundations of Computational Social Systems"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+<div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
+
+---
+
+# The Digital Society
+
+.pull-left[
+More and more of our actions happen through digital technologies, e.g.:
+
+- Searching for a job online   
+- Talking with a family member over the phone  
+- Sharing open source code  
+- Posting a video on a social networking site  
+- Paying at the supermarket with a credit card  
+- Chatting with your boss on a company instant messenger  
+]
+.pull-right[
+![](DigitalSociety.png)
+]
+---
+
+# The Digital Transformation
+
+The growth in adoption and evolution of these technologies is the **digital transformation** of society, which has some consequences:
+
+- **Datafication**: Digital technologies generate data traces that can persist and be analyzed 
+
+- How individuals interact with digital technologies is based on the code of software running on them. The design of that code is based on **algorithms** that describe the rules of how the technology operates  
+
+- Digital technologies might use data produce by humans in their algorithms, for example through machine learning **models** to personalize content or make predictions
+
+---
+
+## What are Computational Social Systems?
+
+Systems in which humans and machines interact through Information and Communication Technologies (ICT). For example social media, mobile phone networks, programming collaboration platforms, enterprise resource planners, online videogames... 
+
+.pull-left[
+Computational social systems generate **new social phenomena** that did not exist before the digital transformation
+
+Computational social systems produce **new data on human behavior** that is transforming the social and human sciences
+]
+.pull-right[
+![](ComputationalSocialSystems.png)
+]
+
+
+---
+
+# Example: Mood oscillations on Twitter
+
+.center[![:scale 75%](MoodOscillations.png)]
+Golder & Macy, Science, 2011
+
+---
+# Example: Flash crashes in financial markets
+
+.center[![:scale 100%](FlashCrash.jpg)]
+
+Johnson et al., 2013 
