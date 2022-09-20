@@ -2,18 +2,18 @@
 
 The course assessment is based on a final course project. Projects are done in groups that can have at most 4 students and must mix students with different backgrounds (at least two different backgrounds per group). The purpose of the project is to show what you have learned in the course in terms of data management, analysis, statistics, and interpretation. Projects have to start from a research question and have an empirical focus, but at the same time critically reflect on methods, conclusions, and limitations. 
 
-The timeline of the project deadlines can be found below. The deadlines are up to the end of the day marked by each date.
+The timeline of the project deadlines can be found below. When you register your project, you choose one of the days when you would like to present. Your deadlines will depend whether you choose day 1 or day 2. The deadlines are up to the end of the day in Austria marked by each date.
 
 - **19.12.2022:** Registration of projects.
-- **03.02.2023:** Project presentations.
-- **17.02.2023:** Deadline for submission of final report.
+- **03.02.2023, 14:00:** Project presentations session day 1.
+- **17.02.2023:** Deadline for submission of final report. 
 
 We offer a second date for project presentations and the submission of the final report for project teams that cannot make it on the first date:
 
-- **03.03.2023** Second date for project presentations
+- **03.03.2023, 14:00** Second date for project presentations session day 2.
 - **17.03.2023** Second date for submission of final report.
 
-You can get guidance for your project on two special online sessions: at 14:00 on 12.12.2022 and 26.01.2023.
+You can get guidance for your project on two special online sessions: at 14:15 on 16.12.2022 and 27.01.2023.
 
 The steps to do the course project are the following:
 
@@ -25,8 +25,9 @@ In the last week before the Christmas break (deadline 19.12), your group has to 
 
 1) Project title
 2) Names and email addresses of group members
-3) Research question(s)
-4) Planned data retrieval and analysis to address the questions
+3) Date chosen for the presentation
+4) Research question(s)
+5) Planned data retrieval and analysis to address the questions
 
 **Invest time on designing carefully your project registration:** once registered, you cannot change the research questions or project topic. You can later adapt steps in the planned data retrieval and analysis, but your final report has to argue why and justify the changes.
 
