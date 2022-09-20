@@ -102,13 +102,14 @@ Each group has at least two sessions per exercise. Due to holidays, one group mi
 02. Intro to Python 2 (25.10 and 27.10)
 03. Intro to Python 3 (03.11)
 04. Exercise 01 Session 1 (8.11 and 10.11)
-05. Exercise 01 Session 2 (15.11 and 17.11)
-06. Exercise 02 Session 1 (22.11 and 24.11)
-07. Exercise 02 Session 2 (29.11 and 01.12)
-08. Exercise 03 Session 1 (06.12)
-09. Exercise 03 Session 2 (13.12 and 15.12)
-10. Exercise 04 Session 1 (10.01 and 12.01)
-11. Exercise 04 Session 2 (17.01 and 19.01)
+05. Exercise 01 Session 2 (15.11 and 17.11) - Deadline to submit solutions of Exercise 01: 21.11
+06. Exercise 02 Session 1 and discussion of solution of Exercise 01 (22.11 and 24.11)
+07. Exercise 02 Session 2 (29.11 and 01.12) - Deadline to submit solutions of Exercise 02: 05.12
+08. Exercise 03 Session 1 and discussion of solution of Exercise 02 (06.12)
+09. Exercise 03 Session 2 (13.12 and 15.12) - Deadline to submit solutions of Exercise 03: 09.01
+10. Exercise 04 Session 1 and discussion of solution of Exercise 03 (10.01 and 12.01)
+11. Exercise 04 Session 2 (17.01 and 19.01) - Deadline to submit solutions of Exercise 04: 23.01
+12. Project guidance with David and discussion of solution of Exercise 04 (27.01)
 
 ## Project guidance sessions, presentation dates, and deadlines
 
