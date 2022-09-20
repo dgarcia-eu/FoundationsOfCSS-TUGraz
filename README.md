@@ -32,7 +32,7 @@ The lectures for the course are organized in five days with two sessions each, m
 ### Day 1 - 6.10.2022 15:15-18:45 (HS i3)
 
 1. **Introduction to Computational Social Systems**  
-1.1. Course administration and information -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/011_CourseIntroduction/Slides/CourseIntroduction_Slides.html)  
+1.1. Course administration and information -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/01_Introduction/011_CourseIntroduction/Slides/CourseIntroduction_Slides.html)  
 1.2. [Computational Social Systems](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_ComputationalSocialSystems/ComputationalSocialSystems) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/012_ComputationalSocialSystems/Slides/ComputationalSocialSystems_Slides.html)  
 1.3. [Social Data Science](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/013_SocialDataScience/SocialDataScience) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS/01_Introduction/013_SocialDataScience/Slides/Introduction_Slides.html)    
 
