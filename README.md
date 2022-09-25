@@ -16,7 +16,7 @@ I am the Professor for Computational Behavioral and Social Sciences the Graz Uni
 The lectures of this course take place as a block course during the first weeks of the semester. The schedule is the following:
 
 - Day 1 - 6.10.2022 15:15-18:45 (HS i3)
-- Day 2 - 7.10.2022 13:15-16:45 (HS i3)
+- Day 2 - 7.10.2022 13:15-16:45 (HS L)
 - Day 3 - 11.10.2022 15:15-18:45 (online)
 - Day 4 - 13.10.2022 15:15-18:45 (online)
 - Day 5 - 14.10.2022 13:15-16:45 (online)
