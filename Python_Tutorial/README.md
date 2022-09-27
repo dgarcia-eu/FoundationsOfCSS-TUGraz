@@ -18,4 +18,4 @@ There is also a [feedbackr](fbr.io/FCSS) open during the whole semester where yo
 ![](https://i.imgur.com/I4tJUou.png)
 
 ## Setup
-For this course as mentioned you will need Python, [here](https://hackmd.io/@rlcmtzc/HJ0zIApbs) is a link to the tutorial to install Python and Jupyter lab (needed for Jupyter Notebooks). If you struggle to install python and jupyter lab please let me know (write me a mail ;))
+For this course as mentioned you will need Python, [here](https://hackmd.io/@rlcmtzc/HJ0zIApbs) is a link to the tutorial to install Python and Jupyter lab (needed for Jupyter Notebooks). If you struggle to install python and jupyter lab please let me know (write me a mail ;) moritz.erlacher@student.tugraz.at)
