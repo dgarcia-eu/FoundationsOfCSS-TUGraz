@@ -57,11 +57,27 @@ Github: [dgarcia-eu](https://github.com/dgarcia-eu)
 Email: dgarcia@tugraz.at
 ]
 
-- Professor for Computational Behavioral and Social Sciences at TU Graz
-- Professor for Social and Behavioral Data Science at the University of Konstanz
+- Professor for Computational Behavioral and Social Sciences, TU Graz
+- Professor for Social and Behavioral Data Science, University of Konstanz
 - Faculty member of the Complexity Science Hub Vienna
+- Privatdozent at ETH Zurich
 
+---
+background-image: url(VennV2-1.svg)
+background-size: 97%
+---
+background-image: url(VennV2.svg)
+background-size: 97%
+---
 
+## Research lines
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("Topics3.svg")
+```
+
+---
+background-image: url(AboutUS.svg)
+background-size: 98%
 ---
 
 # Course objectives
@@ -77,38 +93,64 @@ Email: dgarcia@tugraz.at
 ---
 
 # Course topics
+  - **1.1. Introduction to Computational Social Systems**
+  - **1.2. Search Behavior**
 
-- **Introduction to Computational Social Systems**
-- **Search Behavior**
-- **Social Trends**
-- **Social Impact**
-- **Social Media Text Analysis**
-- **Supervised Sentiment Analysis**
-- **Social network analysis** 
-- **Centrality in social networks** 
-- **Social resilience of online communities** 
-- **Online social network structures** 
-- **Societal issues** 
-- **Ethical and scientific issues** 
+
+  - **2.1. Social Trends**
+  - **2.2. Social Impact**
+
+
+  - 3.1. Social Media Text Analysis
+  - 3.2. Sentiment Analysis
+
+
+  - 4.1. Social network analysis 
+  - 4.2. Centrality in social networks 
+
+
+  - 5.1 Social resilience
+  - 5.2 Societal and ethical issues 
 
 ---
 
 # Exercises and practical sessions
 
-**TO DO: info on tutorials!!!**
+- Exercise practical sessions are provided over the semester (Oct 18 - Jan 27)
+- There are two exercise groups: Tuesdays and Thursdays
 
   - Exercise 1: Future orientation and economic development
   - Exercise 2: Division of impact on Twitter
   - Exercise 3: Evaluating sentiment analysis methods
   - Exercise 4: Twitter network analysis
 
+- Self-organized groups: attendance is not mandatory, you can go to any (or both if that helps)
+- Online support is available on Discord
+- Your tutor will be Moritz Erlacher
+
 ---
 
 # Time, place, online
 
-- **TO DO: info on logistics!!!**
+- First part: 5-day block course of lectures (Oct 6 - Oct 14)
+  - Oct 6 in person at HS i3 (here)
+  - Oct 7 from 13:00 in person at HS L (Alte Technik) - social afterwards
+  - Oct 11, 13, 14 online on webex
+  - All session recordings will be available in TU Graz online
 
-Foundations of CSS Discord (only this course): https://discord.com/invite/HSCFE8fAdx Use it to ask for help!
+
+  
+- Second part: practical exercises  (Oct 18 - Jan 27)
+  - All in person, none will be streamed or recorded
+  - Group A: Tue 13:00 in HS II
+  - Group B: Thu 14:15 in HS i3
+
+
+- Github materials: https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz
+- Foundations of CSS Discord (only this course): https://discord.com/invite/eXWgdu7gn2 Use it to ask for help!
+- Teach Center: https://tc.tugraz.at/main/course/view.php?id=4072
+
+
 
 ---
 
@@ -124,7 +166,7 @@ Groups can have at most 4 students and must mix students with different backgrou
 
 - Can be linked to project in Introduction to CSS. Great opportunity to start working together on a follow-up project in the programme
 
-- We will post project ideas, you can pick from those, reproduce a previous paper, or bring your own idea. 
+- Day 5 of the block course has more information and project examples
 
 ---
 
@@ -138,7 +180,6 @@ Groups can have at most 4 students and must mix students with different backgrou
   - Each exercise is worth 5%
   - Grade is pass/fail
   - Feedback on solutions will be available in practice tutorials
-
-- Lecture+Exercises (VU): projects are mandatory
+  - Deadlines are listed on Github, submissions over Teach Center
 
 - **Questions?**
