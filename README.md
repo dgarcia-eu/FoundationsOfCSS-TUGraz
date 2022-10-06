@@ -41,7 +41,7 @@ The lectures for the course are organized in five days with two sessions each, m
 2.2. [The parable of Google Flu Trends](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/02_Search/022_GoogleFluTrends/GoogleFluTrends) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/02_Search/022_GoogleFluTrends/Slides/GoogleFluTrends_Slides.html)  
 2.3. [Measuring correlation](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/02_Search/023_Correlation/MeasuringCorrelation.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/02_Search/023_Correlation/Slides/MeasuringCorrelation_Slides.html)   
 
-### Day 2 - 7.10.2022 13:15-16:45 (HS i3)
+### Day 2 - 7.10.2022 13:15-16:45 (HS L)
 
 3. **Social Trends**  
 3.1. [The Simmel Effect and Online Social Trends](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/03_SocialTrends/031_SimmelEffect/SimmelEffect.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/03_SocialTrends/031_SimmelEffect/Slides/SimmelEffect_Slides.html)  
