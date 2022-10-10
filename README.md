@@ -92,6 +92,8 @@ The lectures for the course are organized in five days with two sessions each, m
 10.2. [The ethics of social media research](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/10_SocietalIssues/102_Ethics/Ethics.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/10_SocietalIssues/102_Ethics/Slides/Ethics_Slides.html)  
 10.3. [Privacy in the digital society](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/10_SocietalIssues/103_Privacy/Privacy.html) -- [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/10_SocietalIssues/103_Privacy/Slides/Privacy_Slides.html)    
 
+[Project guidance](https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/Projects_Guidance/ProjectsGuide.md) - [[Slides]](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/Projects_Guidance/ProjectGuidanceSlides.html)  
+
 Exercise sessions take place from the third week. In exercises, you collect your own data and try to answer questions about human behavior and online phenomena. The online materials do not contain the solutions to the exercises, but if you are stuck or want to start from an easier point, in the github folder of the exercise you can find a version of the exercise with hints.
 
 ## Exercise sessions calendar
