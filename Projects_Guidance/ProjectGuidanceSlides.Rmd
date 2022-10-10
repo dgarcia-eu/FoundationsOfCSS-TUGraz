@@ -1,0 +1,201 @@
+---
+title: "Projects Guide"
+author: "David Garcia <br><br> *TU Graz*"
+date: "Foundations of Computational Social Systems"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs 
+    css: [xaringan-themer.css, "libs/footer.css"]
+    nature:
+      beforeInit: ["libs/perc.js"]
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+#This block contains the theme configuration for the CSS lab slides style
+library(xaringanthemer)
+library(showtext)
+style_mono_accent(
+  base_color = "#5c5c5c",
+  text_font_size = "1.5rem",
+  header_font_google = google_font("Arial"),
+  text_font_google   = google_font("Arial", "300", "300i"),
+  code_font_google   = google_font("Fira Mono")
+)
+```
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+layout: true
+
+<div class="my-footer"><span>David Garcia - Foundations of Computational Social Systems</span></div> 
+
+---
+#Projects for evaluation
+
+The course assessment is based on a final course project. Exercise points are optional,the final project is **mandatory**.
+
+Projects are done in groups that can have 
+- at most 4 students 
+- must mix students with different backgrounds (at least two different backgrounds per group).
+
+The purpose of the project is to show what you have learned in the course in terms of data management, analysis, statistics, and interpretation.
+
+Projects have to start from a research question and have an empirical focus, but at the same time critically reflect on methods, conclusions, and limitations.
+
+---
+
+#Projects timeline
+
+The deadlines are up to the end of the day in Austria marked by each date.
+
+- **19.12.2022:** Registration of projects.
+- **03.02.2023, 14:00:** Project presentations session day 1.
+- **17.02.2023:** Deadline for submission of final report. 
+
+We offer a second date for project presentations and the submission of the final report for project teams that cannot make it on the first date:
+
+- **03.03.2023, 14:00** Second date for project presentations session day 2.
+- **17.03.2023** Second date for submission of final report.
+
+You can get guidance for your project on two special online sessions with me:  
+at 14:15 on 16.12.2022 and 27.01.2023.
+
+---
+
+# Project steps
+
+**1. Form a group and choose a topic**
+  - Start now! You can find partners on discord and around lectures. It can be coupled with Intro to CSS but it is not required.
+
+**2. Project registration**. Deadline: 19.12.2022
+
+**3. Project presentations**. On 03.02.2023 or 03.03.2023
+
+**4. Submit the final report**. Deadline 17.02.2023 or 17.03.2023
+
+---
+
+# Project registration
+
+- Register your project as a **plain text** email to dgarcia@tugraz.at. 
+- Do not send it to css@tugraz.at, that account will not be monitored any more
+
+A project registration is a short text that includes the following:
+
+1. Project title
+2. Names and email addresses of group members with a small note of disciplinary background of each
+3. Date chosen for the presentation. If you don't choose a date, you will go for the first.
+4. Research question(s)
+5. Planned data retrieval and analysis to address the questions
+
+---
+
+## Important notes about registrations
+
+.center[![:scale 25%](Warning.svg)]
+
+###**Invest time on designing carefully your project registration!**
+
+Once registered, you cannot change the research questions or project topic. 
+
+You can later adapt steps in the planned data retrieval and analysis, but your final report has to argue why and justify the changes.
+
+---
+
+# Project presentations
+
+- **5-minute** presentations about the state of results of their projects
+- Students get questions from lecturers regarding their understanding of the topic and feedback on how to improve the project for the final report.
+- Each presentation has to contain four slides:
+  1. Research question and motivation
+  2. Data and methods
+  3. Results
+  4. Conclusion and critique
+- All members of the group have to participate in their presentation and answer questions.
+- You can get guidance for your project on the designated sessions (12.12 and 26.01) or on discord up until the first project presentations date (03.02).  
+
+**After 03.02.2023, no more guidance will be provided via discord or email.**
+
+---
+# Final report structure
+
+1. **Motivation:** What question(s) do you seek to answer and why?
+
+2. **Data retrieval:** Explain the interfaces or resources you used to collect all data necessary for the project.
+
+3. **Data processing:** Explain how you filtered data, normalized values, computed additional variables, etc.
+
+4. **Analysis:** Perform statistical analyses and visualizations that assess the question(s).
+
+5. **Conclusion:** Evaluate answers to the question and their reliability.
+
+6. **Critique:** Identify limitations and alternative explanations for your results.
+
+
+---
+
+# Submitting the final report
+
+Send a final report as a PDF document (max. 6 pages, min. font size 11pt) via email to dgarcia@tugraz.at.
+
+References do not count towards this 6-page limit. 
+
+Projects can contain a link to a Github repository including the code to produce results, datasets if they can be shared, and additional figures or tables that can be referenced from the project report.
+
+Plots should be correctly shown (named axes, visible scales) and writing has to be understandable. 
+
+A good synthesis is much better than unnecessary information!
+---
+
+## Project grading
+
+- 50% for the presentation
+- 50% for the final report
+
+Extra points are given when projects are based on open science principles (e.g. data and codes are available in a Github repository) and when data sources or methods go beyond what is covered in the course. 
+
+**Projects do not need to report "positive results",** what is important is that you show how your have addressed your research questions, document any issues or deviations, and critically reflect on methods and results.
+
+Remember that on top of the project presentation and report you can individually achieve an additional 4x5% (up to 20%) by handing in the exercise solutions.
+
+---
+
+# Three project paths
+
+### A) Replicating a previous paper
+  - Replication has to be critical and based on your own analysis, not the code of others
+  - For simple papers, additional analysis beyond replication is expected
+
+### B) Building on your Introduction to Computational Social Systems project
+
+### C) Proposing your own idea
+
+None of these paths has a higher expected grade, they are all equally valid.
+
+---
+
+# Project topic examples
+
+- **Bias and fairness in recommender systems**
+
+- **Integrating Survey Data and Digital Trails Data** 
+
+- **Algorithm aversion as expressed on social media data** 
+
+- **Social media polarization**
+
+- **Popularity assortativity of musicians in Spotify**
+
+- **Testing Social Impact Theory in the case of COVID19**
+
+- **Sentiment about Donald Trump and income at the regional level**
+
+
+
