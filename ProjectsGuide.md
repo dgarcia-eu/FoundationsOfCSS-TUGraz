@@ -21,7 +21,7 @@ The steps to do the course project are the following:
 Get in touch with fellow students over the course discord server or around lectures to form a group. You can use the same group composition as in Introduction to Computational Social Systems, but you don't have to.
 
 #### 2. Project registration
-In the last week before the Christmas break (deadline 19.12), your group has to register your project as a **plain text** email to css@tugraz.at. A project registration is a short text that includes the following:
+In the last week before the Christmas break (deadline 19.12), your group has to register your project as a **plain text** email to dgarcia@tugraz.at. A project registration is a short text that includes the following:
 
 1) Project title
 2) Names and email addresses of group members
