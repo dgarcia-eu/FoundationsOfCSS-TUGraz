@@ -114,7 +114,7 @@ Each group has at least two sessions per exercise. Due to holidays, one group mi
 ## Project guidance sessions, presentation dates, and deadlines
 
 - 16.12, 14:15 - Extra project guidance with David (online)
-- 19.12, end of day - **deadline for project registrations** (see the [projects guide](https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/ProjectsGuide.md) for more information)
+- 19.12, end of day - **deadline for project registrations** (see the [projects guide](https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/Projects_Guidance/ProjectsGuide.md) for more information)
 - 27.01, 14:15 - Project guidance with David (online)
 - 03.02, 14:00 - Project presentations date 1 (online)
 - 17.02, end of day - **deadline for submission of final report** for projects presented on date 1.
@@ -125,4 +125,4 @@ Each group has at least two sessions per exercise. Due to holidays, one group mi
 
 The assessment for the course is based on the final group research project (max. 4 students). The project grade is a combination of the presentation (50%) and the written report on the project (50%). Extra points (max 20%)  can be achieved by delivering four optional exercise solutions, each one worth 5%. Optional exercises are graded with pass/fail and feedback about solutions will take place during tutorial sessions.
 
-To learn more about how to do the project, check the [**PROJECTS GUIDE.**](https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/ProjectsGuide.md)
+To learn more about how to do the project, check the [**PROJECTS GUIDE.**](https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/Projects_Guidance/ProjectsGuide.md)
