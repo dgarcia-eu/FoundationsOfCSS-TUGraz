@@ -14,7 +14,8 @@ The three parts are split up as seen in Table below:
 Since we only have one hour per week, the idea is that you work through the tutorials and try to solve the exercises and then in class we try to solve them together. There will be a feedbackr link on top of each tutorial exercise where you can tell me if you need more help for the specific exercises, so we can focus on these exercises in class. 
 The tutorials should also serve as a reference for the bonus exercises later in the semester.
 
-There is also a [feedbackr](fbr.io/FCSS) open during the whole semester where you can ask questions which we can go through in class. You can also ask questions there during class if you do not want to speak out loud ;)
+There is also a [feedbackr](fbr.io/FCSS) open during the whole semester where you can ask questions which we can go through in class. You can also ask questions there during class if you do not want to speak out loud ;)  
+
 ![](https://i.imgur.com/I4tJUou.png)
 
 ## Setup
