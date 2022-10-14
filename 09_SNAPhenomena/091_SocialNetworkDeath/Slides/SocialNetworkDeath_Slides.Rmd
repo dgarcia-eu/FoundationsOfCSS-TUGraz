@@ -54,6 +54,7 @@ layout: true
   - The friendship paradox
 
 ---
+
 # The rise and fall of Friendster
 
 **Friendster** went from 80 Million active users to disappear completely.
