@@ -98,7 +98,7 @@ Exercise sessions take place from the third week. In exercises, you collect your
 
 ## Exercise sessions calendar
 
-Each group has at least two sessions per exercise. Due to holidays, one group might miss one session for one exercise, but it is always possible for every student to attend any group or even both in the same week. Online support is available in any case over Discord.
+Each group has at least two sessions per exercise. Due to holidays, one group might miss one session for one exercise, but it is always possible for every student to attend any group or even both in the same week. Online support is available in any case over Discord. More Information about the Python Intro [here](Python_Tutorial/README.md).
 
 01. Intro to Python 1 (18.10 and 20.10)
 02. Intro to Python 2 (25.10 and 27.10)
