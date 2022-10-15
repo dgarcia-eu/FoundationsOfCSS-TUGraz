@@ -1,5 +1,5 @@
 # Foundations of Computational Social Systems
-[David Garcia](http://dgarcia.eu), 2022
+[David Garcia](http://dgarcia.eu), TU Graz, 2022
 
 Welcome to the online materials for Foundations of Computational Social Systems.
 
