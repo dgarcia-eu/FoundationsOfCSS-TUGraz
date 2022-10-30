@@ -31,6 +31,8 @@ In the last week before the Christmas break (deadline 19.12), your group has to 
 
 **Invest time on designing carefully your project registration:** once registered, you cannot change the research questions or project topic. You can later adapt steps in the planned data retrieval and analysis, but your final report has to argue why and justify the changes.
 
+The registration needs to be concise but detailed enough to allow a reader to judge if you followed those steps when reading the report. Here we [posted an example of a project registration](https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/Projects_Guidance/ProjectRegistrationExample.md).
+
 #### 3. Project presentations
 
 During project presentation sessions, students give **5-minute** presentations about the state of results of their projects. Students get questions from lecturers regarding their understanding of the topic and feedback on how to improve the project for the final report.

@@ -298,8 +298,8 @@ pre code {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -307,16 +307,9 @@ pre code {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -410,8 +403,8 @@ to.</p>
 <h4>2. Project registration</h4>
 <p>In the last week before the Christmas break (deadline 19.12), your
 group has to register your project as a <strong>plain text</strong>
-email to <a href="mailto:dgarcia@tugraz.at" class="email">dgarcia@tugraz.at</a>.
-A project registration is a short text that includes the following:</p>
+email to <a href="mailto:dgarcia@tugraz.at" class="email">dgarcia@tugraz.at</a>. A project registration is a short
+text that includes the following:</p>
 <ol style="list-style-type: decimal">
 <li>Project title</li>
 <li>Names and email addresses of group members</li>
@@ -424,6 +417,10 @@ registration:</strong> once registered, you cannot change the research
 questions or project topic. You can later adapt steps in the planned
 data retrieval and analysis, but your final report has to argue why and
 justify the changes.</p>
+<p>The registration needs to be concise but detailed enough to allow a
+reader to judge if you followed those steps when reading the report.
+Here we <a href="https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/Projects_Guidance/ProjectRegistrationExample.md">posted
+an example of a project registration</a>.</p>
 </div>
 <div id="project-presentations" class="section level4">
 <h4>3. Project presentations</h4>
