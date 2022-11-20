@@ -11,7 +11,7 @@
 
 
 
-<title>ProjectsGuide</title>
+<title>ProjectRegistrationExample</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -358,369 +358,57 @@ pre code {
 </div>
 
 
-<div id="foundations-of-computational-social-systems-projects-guide" class="section level1">
-<h1>Foundations of Computational Social Systems: Projects Guide</h1>
-<p>The course assessment is based on a final course project. Projects
-are done in groups that can have at most 4 students and must mix
-students with different backgrounds (at least two different backgrounds
-per group). The purpose of the project is to show what you have learned
-in the course in terms of data management, analysis, statistics, and
-interpretation. Projects have to start from a research question and have
-an empirical focus, but at the same time critically reflect on methods,
-conclusions, and limitations.</p>
-<p>The timeline of the project deadlines can be found below. When you
-register your project, you choose one of the days when you would like to
-present. Your deadlines will depend whether you choose day 1 or day 2.
-The deadlines are up to the end of the day in Austria marked by each
-date.</p>
-<ul>
-<li><strong>19.12.2022:</strong> Registration of projects.</li>
-<li><strong>03.02.2023, 14:00:</strong> Project presentations session
-day 1.</li>
-<li><strong>17.02.2023:</strong> Deadline for submission of final
-report.</li>
-</ul>
-<p>We offer a second date for project presentations and the submission
-of the final report for project teams that cannot make it on the first
-date:</p>
-<ul>
-<li><strong>03.03.2023, 14:00</strong> Second date for project
-presentations session day 2.</li>
-<li><strong>17.03.2023</strong> Second date for submission of final
-report.</li>
-</ul>
-<p>You can get guidance for your project on two special online sessions:
-at 14:15 on 16.12.2022 and 27.01.2023.</p>
-<p>The steps to do the course project are the following:</p>
-<div id="form-a-group-and-choose-a-topic" class="section level4">
-<h4>1. Form a group and choose a topic</h4>
-<p>Get in touch with fellow students over the course discord server or
-around lectures to form a group. You can use the same group composition
-as in Introduction to Computational Social Systems, but you don’t have
-to.</p>
-</div>
-<div id="project-registration" class="section level4">
-<h4>2. Project registration</h4>
-<p>In the last week before the Christmas break (deadline 19.12), your
-group has to register your project as a <strong>plain text</strong>
-email to <a href="mailto:dgarcia@tugraz.at" class="email">dgarcia@tugraz.at</a>. A project registration is a short
-text that includes the following:</p>
+<div id="project-registration-example" class="section level1">
+<h1>Project registration example</h1>
+<p>Project title: Political strength in Online Social Impact</p>
+<p>Names and email addresses of group members:<br />
+Student 1, <a href="mailto:email1@domain.com" class="email">email1@domain.com</a> (X major)<br />
+Student 2, <a href="mailto:email2@domain.com" class="email">email2@domain.com</a> (Y major)<br />
+Student 3, <a href="mailto:email3@domain.com" class="email">email3@domain.com</a> (Z major)<br />
+Student 4, <a href="mailto:email4@domain.com" class="email">email4@domain.com</a> (W major)</p>
+<p>Research question(s):<br />
+We aim to test the hypothesis of the role of strength in social impact
+as hypothesized by Social Impact Theory. We will study how the strength
+of a source on Twitter influences the aggregated impact it has on its
+followers. To do so, we will focus on US accounts of current and former
+members of congress and analyze their timelines, measuring strength as a
+comparison between two groups: current members as strong sources and
+past members as weaker sources. We will test the following
+hypotheses:</p>
 <ol style="list-style-type: decimal">
-<li>Project title</li>
-<li>Names and email addresses of group members</li>
-<li>Date chosen for the presentation</li>
-<li>Research question(s)</li>
-<li>Planned data retrieval and analysis to address the questions</li>
+<li><p>The mean number of retweets per tweet of twitter accounts of US
+politicians grows as a power of number of followers (replication of
+exercise).</p></li>
+<li><p>The mean number of retweets per tweet of twitter accounts of
+current members of congress is higher than former members of
+congress.</p></li>
+<li><p>The coefficient of the relationship between mean number of
+retweets per tweet and the number of followers is higher for current the
+twitter accounts of current members of congress than for former members
+of congress (multiplicative effect).</p></li>
 </ol>
-<p><strong>Invest time on designing carefully your project
-registration:</strong> once registered, you cannot change the research
-questions or project topic. You can later adapt steps in the planned
-data retrieval and analysis, but your final report has to argue why and
-justify the changes.</p>
-<p>The registration needs to be concise but detailed enough to allow a
-reader to judge if you followed those steps when reading the report.
-Here we <a href="https://github.com/dgarcia-eu/FoundationsOfCSS-TUGraz/blob/master/Projects_Guidance/ProjectRegistrationExample.md">posted
-an example of a project registration</a>.</p>
-</div>
-<div id="project-presentations" class="section level4">
-<h4>3. Project presentations</h4>
-<p>During project presentation sessions, students give
-<strong>5-minute</strong> presentations about the state of results of
-their projects. Students get questions from lecturers regarding their
-understanding of the topic and feedback on how to improve the project
-for the final report.</p>
-<p>Each presentation has to contain four slides:</p>
+<p>Planned data retrieval and analysis to address the questions</p>
+<p>We plan the following steps</p>
 <ol style="list-style-type: decimal">
-<li>Research question and motivation</li>
-<li>Data and methods</li>
-<li>Results</li>
-<li>Conclusion and critique</li>
+<li><p>Based on an existing dataset (<a href="https://osf.io/mqhgp/" class="uri">https://osf.io/mqhgp/</a>), retrieve twitter user profile
+data and remove from the analysis any accounts that are set to private,
+have less than 100 followers, wrote less than 100 tweets, or had their
+last tweet more than a month ago.</p></li>
+<li><p>Retrieve tweets posted in the last year by each of the remaining
+accounts.</p></li>
+<li><p>Clean tweets by removing retweets, replies, and tweets younger
+than two days old.</p></li>
+<li><p>Record the impact of each account as the mean number of retweets
+of their tweets. Produce a data frame per user with a column for the
+mean number of retweets, a second column for the number of followers,
+and a third with a code of whether they are current or former congress
+members.</p></li>
+<li><p>Fit linear regression models to test each of the hypotheses. We
+will apply permutation tests to estimate the p-value of the hypotheses
+versus their corresponding null hypothesis and we will use bootstrapping
+to calculate the confidence intervals around the coefficients we are
+interested in.</p></li>
 </ol>
-<p>All members of the group have to participate in their presentation
-(for example presenting one slide each) and be present to reply to
-questions by the lecturers. The time for the presentation is restricted
-to <strong>5 minutes</strong>. It is important that you learn to
-synthesize and summarize the project, please practice the presentation
-substantially because taking longer will affect the project grade.</p>
-<p>You can get guidance for your project on the designated sessions
-(12.12.2022 and 26.01.2023) or on discord up until the first project
-presentations date (03.02.2023). After that, no guidance will be
-provided via discord or email.</p>
-</div>
-<div id="submit-the-final-report" class="section level4">
-<h4>4. Submit the final report</h4>
-<p>Send a final report as a PDF document (max. 6 pages, min. font size
-11pt) via email. References do not count towards this 6-page limit.
-Projects can contain a link to a Github repository including the code to
-produce results, datasets if they can be shared, and additional figures
-or tables that can be referenced from the project report.</p>
-<p>Project reports should follow this structure:</p>
-<ol style="list-style-type: decimal">
-<li>Motivation: What question(s) do you seek to answer and why?</li>
-<li>Data retrieval: Explain the interfaces or resources you used to
-collect all data necessary for the project.</li>
-<li>Data processing: Explain how you filtered data, normalized values,
-computed additional variables, etc.</li>
-<li>Analysis: Perform statistical analyses and visualizations that
-assess the question(s).</li>
-<li>Conclusion: Evaluate answers to the question and their
-reliability.</li>
-<li>Critique: Identify limitations and alternative explanations for your
-results.</li>
-</ol>
-<p>Plots should be correctly shown (named axes, visible scales) and
-writing has to be understandable. The motivation part is very important.
-Argue why your project is relevant and what we can learn about human
-behavior with it.</p>
-<p>Be careful with statistics in the analysis part. Use the methods
-covered in the course to assess the uncertainty of your answers and
-comment on these results in the conclusion part. The critique part is
-essential. An important objective of this course is to develop a
-critical understanding of the opportunities and limitations of the data
-and methods we will use.</p>
-<p>After your project presentations, we might suggest feedback on your
-current project analysis and results. We will keep track of this
-feedback and expect that you incorporate it in your final project
-report. If something could not be done then we expect that you explain
-why. No more feedback or support will be given after the first project
-presentations day (03.02.2023). Students who aim to the second date
-should get early input on their project.</p>
-</div>
-<div id="project-grading" class="section level2">
-<h2>Project grading</h2>
-<p>The grade for the project is composed of 50% for the presentation and
-50% for the final report. Extra points are given when projects are based
-on open science principles (e.g. data and codes are available in a
-Github repository) and when data sources or methods go beyond what is
-covered in the course. <strong>Projects do not need to report “positive
-results”,</strong> what is important is that you show how your have
-addressed your research questions, document any issues or deviations,
-and critically reflect on methods and results. Remember that on top of
-the project presentation and report you can individually achieve an
-additional 4x5% (up to 20%) by handing in the exercise solutions.</p>
-</div>
-<div id="examples-of-project-topics" class="section level2">
-<h2>Examples of project topics</h2>
-<div id="replicating-a-previous-paper" class="section level4">
-<h4>Replicating a previous paper</h4>
-<p>You can select a previous paper and take the same question and
-methods used in the paper. You don’t need to do the exact same thing,
-but the question can be the same. For example, you can replicate a study
-about sentiment on Twitter but with Reddit data. In this case, it is
-important that you explain in your report the question and methods of
-the paper you replicate, how you have deviated from those, and how your
-results agree, disagree, or are inconclusive. Many papers share tweet
-ids or other kinds of ids for you to generate your own dataset in a
-similar way, we welcome that kind of replication but not replications
-based solely on the data shared by the authors of the original
-paper.</p>
-</div>
-<div id="building-on-your-introduction-to-computational-social-systems-project" class="section level4">
-<h4>Building on your Introduction to Computational Social Systems
-project</h4>
-<p>You can seize the readings you do for Introduction to Computational
-Social Systems and propose a question and a plan based on that. This has
-the upside that you could merge both projects afterwards in one report
-and use it to showcase what you learned or towards a scientific
-publication. Some examples of how this can be done:</p>
-<ul>
-<li><strong>Bias and fairness in recommender systems.</strong> Use a
-dataset of book reviews and a recommender system method (for example
-collaborative filtering) to evaluate if books written by women are
-recommended less often. You can compare various recommendation
-algorithms and assess their gender biases.</li>
-<li><strong>Integrating Survey Data and Digital Trails Data.</strong>
-Take international survey data, for example from the World Values
-Survey, and compare values across countries with a language-independent
-measure of online behavior. You can use this to test if long-term
-orientation in the World Values Survey is correlated with the Future
-Orientation Index, or if the volume of accesses to Wikipedia pages about
-climate change in all languages is correlated with concerns about the
-climate or average altitude of a country.</li>
-<li><strong>Fighting online misinformation.</strong> Use a set of links
-to websites with misinformation (e.g. promoting ivermecting as COVID-19
-treatment) and gather tweets or Facebook public posts through
-Crowdtangle. You can start from what previous research has done, for
-example testing if emotional content on posts helps to get more retweets
-or shares on Facebook or testing if there is substantial inequality in
-sharing links such that 90% of shares come from 10% of users.</li>
-<li><strong>Algorithm aversion.</strong> Search on Twitter or Reddit for
-posts containing the word “algorithm” and apply sentiment analysis. Do
-your own annotations to identify if sentiment analysis can find
-expressions of aversion. Run text analysis to identify if there are
-different reasons for the aversion and the different meanings of the
-word.</li>
-<li><strong>Social media polarization.</strong> Take a recent Twitter
-controversial trending topic and retrieve tweets about it from the last
-week. Take the most active users and get network data between them in
-terms of replies, retweets, quotes, and followings. Quantify modularity
-in these networks and argue what aspect of polarization this measures
-and what other aspects are missing with this analysis.</li>
-<li><strong>Technologies for self-tracking.</strong> Download your own
-Twitter, Facebook, or Instagram datasets and process your own
-information as if it was a self-tracker of relevant information such as
-location, activity, or sentiment. You can invite colleagues to donate
-data to you if they are actively consenting to your analysis. Then you
-can assess a question about social media use, for example whether
-passive use is associated with negative sentiment.</li>
-</ul>
-</div>
-<div id="propose-your-own-idea" class="section level4">
-<h4>Propose your own idea</h4>
-<p>Here are some examples of further ideas for you to see how a project
-plan can look like. Feel free to choose among these but research by
-yourself if this kind of data and methods are still available.</p>
-<ul>
-<li><p><strong>Popularity assortativity of musicians in
-Spotify.</strong> Retrieving data about the latest popular musicians on
-a genre through the Spotify API, using the measurement of popularity
-given by Spotify. The project validates the popularity measurement by
-analyzing correlations with the number of followers of musicians. Then
-builds the collaboration network between musicians based on
-co-authorship links of appearing in the same song. The project presents
-descriptive statistics of the network and visualizations. The final
-question is tested by measuring assortativity with respect to
-popularity, assessing it with a permutation test.</p></li>
-<li><p><strong>Testing Social Impact Theory in the case of
-COVID19.</strong> Measuring impact through Google trends volumes and
-number of tweets with terms related to the disease. Immediacy measured
-as the distance between countries and early sources of spreading. Number
-of sources measured as deaths in those countries. The project focuses on
-a series of countries where Twitter and Google are widely used, testing
-the theory through the relationship between impact, strength, and
-immediacy.</p></li>
-<li><p><strong>Sentiment about Donald Trump and income at the regional
-level.</strong> Testing a hypothesis about a correlation between
-sentiment in tweets mentioning #Trump in a region correlated and its
-income and education levels. Used syuzhet and VADER. Manual annotation
-of some tweets showed limitations, for example some dictionaries have
-“trump” as a positive word, thus the sentiment analysis method was
-changed accordingly. Geographic location information based on text
-processing of user location. Test based on a regression model including
-two education levels from census data too. Robustness with two sentiment
-analysis methods but not “shopping around methods” including too
-many.</p></li>
-</ul>
-</div>
-</div>
-<div id="frequently-asked-questions" class="section level2">
-<h2>Frequently asked questions</h2>
-<ul>
-<li><strong>Do I have to work in a group?</strong> Yes, individual
-projects are not allowed. You can use collaborative tools like Github
-and videoconference technologies to coordinate your project. You can
-divide tasks as long as you all contribute to the project. Some
-exceptions about the group composition can be considered for groups
-composed only of doctoral researchers at TU Graz, contact us if that is
-your case.</li>
-<li><strong>Do we need to start with a question?</strong> Yes, and this
-question has to be relevant about human behavior. Remember that this
-course is not data-driven, so please do not start with a cool dataset
-and then see what to do with it. In general, good research questions can
-be answered with a yes/no answer or with a number. For example: “are
-emotional tweets retweeted more often?” or “is there a correlation
-between Twitter misspelling frequency and unemployment?”. Questions that
-start with “how” or “what” are usually not good, like “how do people use
-TikTok?” or “what is Austria’s favorite Pokemon?”.</li>
-<li><strong>Can we change the question or project topic?</strong> Only
-before you register your project. Your project registration has to
-include your question and you cannot change it afterwards. If you have
-problems regarding methods or data, you should document that in your
-project report, but not change the question because of that.</li>
-<li><strong>What if some dataset or method turns out to work differently
-than we planned?</strong> This can always happen and there is no problem
-with changing some plans about the data retrieval or analysis, as long
-as you document these well in your report and argue about the changes.
-What you cannot change is the question and motivation of your project or
-do arbitrary, unjustified changes to the plan.</li>
-<li><strong>What if we don’t get “nice” results or don’t fit our
-expectations?</strong> As long as you followed your plan, the particular
-results that you get will not factor into the grade. If you get a
-negative result or a surprising answer, comment on that in the
-conclusion section and reflect on it in your critique section. Follow
-our recommendations and feedback during the course and comment on them
-in your report if some reason you couldn’t follow them.</li>
-<li><strong>Can our question be about methods rather than testing a
-hypothesis?</strong> Yes, but make sure to motivate why those methods
-are important to the study of Computational Social Systems and how
-understanding them can help us to study human behavior. For example,
-your question could be “can we adapt VADER to German?” or “is the Future
-Orientation Index stable across years?”. You can also identify
-unresolved methodological problems and address them with empirical data
-in your project.</li>
-<li><strong>Can our question be about generating a new dataset?</strong>
-Also yes, but explain why that dataset doesn’t exist yet and which kind
-of analyses about human behavior it can enable. Focus your question and
-analyses on validating the quality of the dataset and providing
-descriptive statistics and visualizations that can help others to use
-the dataset. In this case, make sure that you make the dataset
-accessible in a Github repository or find another way to share the
-data.</li>
-<li><strong>Do we have to use data in the project?</strong> Projects in
-this course have to be empirical and use data. Critical discussions are
-welcome in the last part of the project and theoretical motivations in
-the first one, but make sure that your project has an empirical and
-quantitative core.</li>
-<li><strong>Can we use a statistical method or model not covered by the
-course?</strong> Yes, but make sure that you understand it well. Don’t
-use a method just because someone told you to do so (for example on
-stack exchange) or because everyone in your field is using it, think
-critically and make sure that you don’t just run some software and get a
-magical p-value or something like that. You should also briefly explain
-this method in your report, cite relevant references about it, and
-explain why you chose to use it.</li>
-<li><strong>How can we share our code and data with you?</strong> You
-can share code and data by setting up a Github repository and including
-a link in your report. You will get extra points if the repository is
-well documented and might help other people in their analyses!</li>
-<li><strong>Can I use a proprietary dataset I cannot share?</strong>
-That’s OK if it answers your question well but you won’t qualify to get
-extra points for open science practices. I often run the code of
-projects myself and I cannot do that if you can’t share the
-dataset.</li>
-<li><strong>Can we access historical Twitter data?</strong> Normal
-developer accounts have access only to the last 7 days of tweets through
-the search API. You can generate samples of tweet ids for queries about
-a term in other services like OSoMe Trends and the Pushshift API, but
-these sources are incomplete and limited in time. Recently Twitter has
-started giving full historical access to academics, but you will have to
-go through an application process and write an application that can take
-a while and it is not guaranteed that will be accepted. Don’t register a
-project that would require historical Twitter data if you don’t have
-access to it.</li>
-<li><strong>Can we compare countries on Twitter?</strong> You can get
-some location data from Twitter if you process the “location” field of
-user profiles with a geocoder package. However, this can take very long
-and in general it is very hard to compare many countries with Twitter
-data. Also keep in mind language issues, especially if you plan to
-analyze text or run sentiment analysis. To compare countries you can use
-other data sources like Google Trends, Wikipedia page views if languages
-suit you, or even Facebook data from their official datasets or their
-ads API.</li>
-<li><strong>Can I do sentiment analysis in languages other than
-English?</strong> There are resources for multiple languages, for
-example the translations of the NRC lexicon, the LabMT word lists,
-SentiStrength versions in many languages, or word lists with valence and
-arousal in languages like Spanish, French, Italian, or German. Keep in
-mind the validity of sentiment analysis and provide a careful assessment
-of the quality of your method for your dataset. If you can’t find
-reliable information about it in previous papers, you can annotate a
-random sample of a few hundred texts from your dataset to provide an
-idea of how good the method is.</li>
-<li><strong>Can I use data from previous papers?</strong> Yes, but we
-also want to see what you learned about data retrieval during the
-course. If you are going to replicate a previous paper, you will need to
-produce your own data and the project cannot be based only on data
-shared by the authors of the original paper. Do not rely on authors
-sharing any data beyond what is publicly available in a paper.</li>
-<li><strong>Do I have to use social media data or other Internet-related
-data?</strong> No, but your data has to be relevant to a question about
-Computational Social Systems. You can also use data from surveys about
-online behavior, old big data like baby name statistics, or other kinds
-of quantified human behavior data like Google books or movie
-subtitles.</li>
-</ul>
-</div>
 </div>
 
 
