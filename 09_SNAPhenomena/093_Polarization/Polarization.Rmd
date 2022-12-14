@@ -4,7 +4,7 @@ author: "David Garcia"
 output: html_document
 ---
 
-[**[You can find the lecture slides here]**](https://dgarcia-eu.github.io/FoundationsOfCSS/09_SNAPhenomena/093_Polarization/Slides/Polarization_Slides.html)
+[**[You can find the lecture slides here]**](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/09_SNAPhenomena/093_Polarization/Slides/Polarization_Slides.html)
 
 ### Recommended Readings
 

@@ -61,7 +61,7 @@ layout: true
 
 - $\sigma_X$ is the standard deviation of X
   -  $\sigma_X = \sqrt{V[X]}$, which is convenient because it measures dispersion in the same units as $X$
-  - in R you can calculate it with the function sd()
+  - You can calculate it with the function sd() or std()
 
 ---
 

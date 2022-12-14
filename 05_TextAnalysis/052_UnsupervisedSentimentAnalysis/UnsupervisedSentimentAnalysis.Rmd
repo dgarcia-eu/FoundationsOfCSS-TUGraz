@@ -57,7 +57,7 @@ The pioneer work of [Philip Stone in 1966](https://mitpress.mit.edu/books/genera
 
 ### Linguistic Inquiry and Word Count (LIWC)
 
-LIWC (pronounced "Luke") was developed as a click-and-run software by [James Pennebaker in 2001](https://liwc.wpengine.com/). Inspired by the General Inquirer, it contains a set of word lists that are matched against words in the text to compute frequencies for each list. The word lists of LIWC were designed to cover both linguistic classes and to capture psychological processes such as cognitive processes, social processes, and emotions. Word lists for LIWC are produced by groups of experts that compare their individual word lists and expand them with synonyms. There have been three versions of LIWC in English (2001, 2007 and 2015) and dictionaries have been generated with the same method for several languages including German, Spanish, French, Arabic, and Chinese.
+LIWC (pronounced "Luke") was developed as a click-and-run software by [James Pennebaker in 2001](https://www.liwc.app/). Inspired by the General Inquirer, it contains a set of word lists that are matched against words in the text to compute frequencies for each list. The word lists of LIWC were designed to cover both linguistic classes and to capture psychological processes such as cognitive processes, social processes, and emotions. Word lists for LIWC are produced by groups of experts that compare their individual word lists and expand them with synonyms. There have been three versions of LIWC in English (2001, 2007 and 2015) and dictionaries have been generated with the same method for several languages including German, Spanish, French, Arabic, and Chinese.
 
 Here you can see an example of how LIWC words on a text:
 

@@ -53,7 +53,7 @@ In 2014, Cannarella and Spechler uploaded a [preprint to Arxiv](https://arxiv.or
 </center>
 Canarella and Spechler's article got lots of attention in news media, being covered by [Time](https://time.com/1405/facebook-is-about-to-lose-80-of-its-users-study-says/) and [The Guardian](https://www.theguardian.com/technology/2014/jan/22/facebook-princeton-researchers-infectious-disease). Now in 2021, not only Facebook hasn't collapsed, but it has more users than ever and that Arxiv preprint hasn't passed peer-review yet. What happened?
 
-Data scientists at Facebook [replied to the Arxiv paper](https://www.facebook.com/notes/mike-develin/debunking-princeton/10151947421191849/) showing the problem with measuring social network use levels using Google Trends data. Applying the same methodology, Facebook researchers reached the conclusion that Princeton would lose 80% of its students by 2021:
+Data scientists at Facebook [replied to the Arxiv paper](https://www.facebook.com/notes/mike-develin/debunking-princeton/10151947421191849/) [PDF](princeton-facebook.pdf) showing the problem with measuring social network use levels using Google Trends data. Applying the same methodology, Facebook researchers reached the conclusion that Princeton would lose 80% of its students by 2021:
 
 <center>
 ![](princetonQueries.png){width=70%}

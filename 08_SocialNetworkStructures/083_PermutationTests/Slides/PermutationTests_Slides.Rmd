@@ -71,7 +71,7 @@ Once we have measured something or got a statistical result from our analysis, w
 
 ---
 
-# Permutation tests in R: FOI and GDP
+# Permutation tests: FOI and GDP
 
 
 .pull-left[
