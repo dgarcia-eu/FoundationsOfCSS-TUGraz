@@ -4,7 +4,7 @@ author: "David Garcia"
 output: html_document
 ---
 
-[**[You can find the lecture slides here]**](https://dgarcia-eu.github.io/FoundationsOfCSS/10_SocietalIssues/102_Ethics/Slides/Ethics_Slides.html)
+[**[You can find the lecture slides here]**](https://dgarcia-eu.github.io/FoundationsOfCSS-TUGraz/10_SocietalIssues/102_Ethics/Slides/Ethics_Slides.html)
 
 ### Recommended Readings
 

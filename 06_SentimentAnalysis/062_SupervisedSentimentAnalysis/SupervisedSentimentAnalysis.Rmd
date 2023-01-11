@@ -92,7 +92,7 @@ The $F_1$ score is often used as a way to summarize the quality of classifiers. 
 
 ### Let someone else do it: Black-box APIs
 
-Private companies have set up online services to classify sentiment from text. Two popular examples are [IBM Watson](https://natural-language-understanding-demo.ng.bluemix.net/) and [Google NLP](https://cloud.google.com/natural-language/docs/basics). You need to create an account and get API keys to send your texts to classify. In the response you will receive scores or classes based on their models. Use carefully because they charge for the service, but often you have few thousand requests for free to try. Their output looks like this:
+Private companies have set up online services to classify sentiment from text. Two popular examples are [IBM Watson](https://www.ibm.com/demos/live/natural-language-understanding/self-service/home) and [Google NLP](https://cloud.google.com/natural-language/docs/basics). You need to create an account and get API keys to send your texts to classify. In the response you will receive scores or classes based on their models. Use carefully because they charge for the service, but often you have few thousand requests for free to try. Their output looks like this:
 
 ![](IBMNLP.png){width=50%}![](GoogleNLP.png){width=50%}  
 

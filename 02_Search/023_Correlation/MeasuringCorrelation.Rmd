@@ -13,14 +13,14 @@ To test the relationship between the Future Orientation Index and the GDP per ca
 - $E[X]$ is the expected value of $X$
   - We estimate the expected value as the mean of $X$: $\mu_X = \frac{1}{N}\sum_i X_i$
   - $N$ is the number of data points, for example the number of countries
-  - In R you can calculate it with the function mean()
+  - You can calculate it with the function mean()
 - $V[X]$ is the variance of $X$
   - We calculate it as the expected squared difference to the mean X: $V[X] = \frac{1}{N}\sum_i (X_i - \mu_X)^2$
   - The variance is measured in the square of units of X (e.g. if X is GDP measured in USD, then V[X] is USD$^2$)  
   
 - $\sigma_X$ is the standard deviation of X
   -  $\sigma_X = \sqrt{V[X]}$, which is convenient because it measures dispersion in the same units as $X$
-  - in R you can calculate it with the function sd()
+  - You can calculate it with the function sd() or std()
 
 ### Pearson's Correlation Coefficient
 
@@ -40,7 +40,7 @@ $E[XY] = E[X]E[Y]$
 <p align=center>
 $\rho(X,Y) = \frac{E[XY] − E [X]E[Y]}{\sigma_X\sigma_Y}$  
 </p>
-- Can be computed in R with the function cor()
+- Can be computed with the function cor() or corr()
 
 
 ### Some examples of Pearson's Correlation Coefficient:
